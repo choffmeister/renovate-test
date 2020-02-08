@@ -2,4 +2,12 @@ name := "renovate-test"
 scalaVersion := "2.12.10"
 organization := "de.choffmeister"
 
-libraryDependencies ++= Seq("org.scalatest" % "scalatest_2.12" % "3.0.8")
+resolvers in ThisBuild ++= Seq(
+  "pkgdist" at s"https://maven.pkg.airfocus.dev",
+  Resolver.jcenterRepo,
+  Resolver.bintrayRepo("choffmeister", "maven")
+)
+
+libraryDependencies ++= Seq(
+  "org.scalatest" %% "scalatest" % "3.0.8"
+)
