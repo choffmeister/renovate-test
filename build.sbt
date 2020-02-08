@@ -9,6 +9,6 @@ resolvers in ThisBuild ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "io.airfocus" %% "airfocus-team-service-api" % Versions.airfocusTeamServiceApi,
-  "org.scalatest" %% "scalatest" % Versions.scalatest % Test,
+//   "io.airfocus" %% "airfocus-team-service-api" % Versions.airfocusTeamServiceApi,
+  "org.scalatest" %% "scalatest" % Versions.scalatest % Test
 )
