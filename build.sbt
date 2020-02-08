@@ -1,4 +1,4 @@
-val scalatestVersion = "3.0.8"
+val scalatestVersion = "3.2.0-SNAP10"
 
 name := "renovate-test"
 scalaVersion := "2.12.10"
