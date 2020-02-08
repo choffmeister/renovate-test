@@ -9,5 +9,5 @@ resolvers in ThisBuild ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "org.scalatest" %% "scalatest" % "3.0.8"
+  "org.scalatest" %% "scalatest" % "3.2.0-SNAP10"
 )
