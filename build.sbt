@@ -1,3 +1,5 @@
+val scalatestVersion = "3.0.8"
+
 name := "renovate-test"
 scalaVersion := "2.12.10"
 organization := "de.choffmeister"
@@ -10,5 +12,5 @@ resolvers in ThisBuild ++= Seq(
 
 libraryDependencies ++= Seq(
 //   "io.airfocus" %% "airfocus-team-service-api" % Versions.airfocusTeamServiceApi,
-  "org.scalatest" %% "scalatest" % Versions.scalatest % Test
+  "org.scalatest" %% "scalatest" % scalatestVersion % Test
 )
